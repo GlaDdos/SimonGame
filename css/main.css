@@ -17,3 +17,72 @@ body{
   text-shadow: 0.1em 0.1em 0.08em #2d6a85;
 
 }
+
+#game{
+  position: relative;
+  height: 40em;
+  width: 40em;
+
+  margin: auto auto;
+  z-index: -1;
+}
+
+
+#game-red{
+  position: absolute;
+  background-color: red;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 50%;
+  border: 1px solid white;
+  border-top-left-radius: 150%;
+}
+
+#game-green{
+  position: absolute;
+  background-color: green;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 50%;
+  border: 1px solid white;
+  border-top-right-radius: 150%;
+}
+
+#game-blue{
+  position: absolute;
+  background-color: blue;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  height: 50%;
+  border: 1px solid white;
+  border-bottom-left-radius: 150%;
+}
+
+#game-yellow{
+  position: absolute;
+  background-color: yellow;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  height: 50%;
+  border: 1px solid white;
+  border-bottom-right-radius: 150%;
+}
+
+#game-panel{
+  position: absolute;
+
+  top: 20%;
+  right: 20%;
+  height: 60%;
+  width: 60%;
+
+  background-color: #4696e5;
+
+  border: 3px solid white;
+  border-radius: 50%;
+
+}
