@@ -86,3 +86,18 @@ body{
   border-radius: 50%;
 
 }
+
+.element{
+  position: absolute;
+  top: 40%;
+  display: inline-block;
+  width: 20%;
+  height: 20%;
+  border: 1px solid white;
+  text-align: center;
+  border-radius: 20%;
+}
+
+.element-left{
+
+}
