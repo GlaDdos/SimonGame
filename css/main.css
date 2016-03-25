@@ -15,7 +15,6 @@ body{
 
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   text-shadow: 0.1em 0.1em 0.08em #2d6a85;
-
 }
 
 #game{
@@ -24,7 +23,7 @@ body{
   width: 40em;
 
   margin: auto auto;
-  z-index: -1;
+
 }
 
 
@@ -54,22 +53,22 @@ body{
   position: absolute;
   background-color: blue;
   bottom: 0;
-  left: 0;
+  right: 0;
   width: 50%;
   height: 50%;
   border: 1px solid white;
-  border-bottom-left-radius: 150%;
+  border-bottom-right-radius: 150%;
 }
 
 #game-yellow{
   position: absolute;
   background-color: yellow;
   bottom: 0;
-  right: 0;
+  left: 0;
   width: 50%;
   height: 50%;
   border: 1px solid white;
-  border-bottom-right-radius: 150%;
+  border-bottom-left-radius: 150%;
 }
 
 #game-panel{
@@ -93,11 +92,61 @@ body{
   display: inline-block;
   width: 20%;
   height: 20%;
-  border: 1px solid white;
   text-align: center;
   border-radius: 20%;
 }
 
 .element-left{
+  left: 10%;
+}
 
+.element-middle{
+  left: 40%;
+}
+
+.element-right{
+  left: 70%;
+}
+
+#indicator{
+  width: 10%;
+  height: 10%;
+
+  margin: 0 auto;
+  margin-bottom: 1em;
+  border: 1px solid white;
+
+  border-radius: 50%;
+}
+
+.label{
+  position: absolute;
+
+  bottom: -10%;
+  left: 0;
+  right: 0;
+
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+#score-field{
+  font-size: 3em;
+
+  border: 1px solid white;
+  border-radius: 30%;
+}
+
+#start, #strict{
+  position: absolute;
+  height: 40%;
+  width: 40%;
+  background-color: red;
+
+  border: 2px solid white;
+  border-radius: 50%;
+
+  top: 30%;
+  left: 30%;
 }
