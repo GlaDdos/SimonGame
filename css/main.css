@@ -29,7 +29,7 @@ body{
 
 #game-red{
   position: absolute;
-  background-color: red;
+  background-color: #823333;
   top: 0;
   left: 0;
   width: 50%;
@@ -40,7 +40,7 @@ body{
 
 #game-green{
   position: absolute;
-  background-color: green;
+  background-color: #065D06;
   top: 0;
   right: 0;
   width: 50%;
@@ -51,7 +51,7 @@ body{
 
 #game-blue{
   position: absolute;
-  background-color: blue;
+  background-color: #24245F;
   bottom: 0;
   right: 0;
   width: 50%;
@@ -62,7 +62,7 @@ body{
 
 #game-yellow{
   position: absolute;
-  background-color: yellow;
+  background-color: #777719;
   bottom: 0;
   left: 0;
   width: 50%;
@@ -138,15 +138,19 @@ body{
   border-radius: 30%;
 }
 
-#start, #strict{
+#start, #strict, #reset{
   position: absolute;
   height: 40%;
   width: 40%;
-  background-color: red;
+  background-color: green;
 
   border: 2px solid white;
   border-radius: 50%;
 
   top: 30%;
   left: 30%;
+}
+
+#reset{
+  background-color: red;
 }
