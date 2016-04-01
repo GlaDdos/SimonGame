@@ -16,10 +16,29 @@
 
   <body>
     <div id="game">
-      <div id="game-red" class="clickable-color" value="1"></div>
-      <div id="game-green" class="clickable-color" value="2"></div>
-      <div id="game-yellow" class="clickable-color" value="4"></div>
-      <div id="game-blue" class="clickable-color" value="3"></div>
+      <div id="game-red" class="clickable-color" value="1">
+        <audio preload="auto">
+          <source src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3" type="audio/mpeg" />
+        </audio>
+      </div>
+
+      <div id="game-green" class="clickable-color" value="2">
+        <audio preload="auto">
+          <source src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3" type="audio/mpeg"  />
+        </audio>
+      </div>
+
+      <div id="game-yellow" class="clickable-color" value="4">
+        <audio preload="auto">
+          <source src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3" type="audio/mpeg" />
+        </audio>
+      </div>
+
+      <div id="game-blue" class="clickable-color" value="3">
+        <audio preload="auto">
+          <source src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3" type="audio/mpeg" />
+        </audio>
+      </div>
 
       <div id="game-panel">
        <div class="element element-left">
@@ -33,7 +52,8 @@
        </div>
 
        <div class="element element-right">
-         <div id="indicator"></div>
+         <div id="indicator">
+         </div>
          <button id="strict" type="button" value="" ></button>
          <div class="label">Strict</div>
        </div>
